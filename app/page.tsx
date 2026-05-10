@@ -5,8 +5,6 @@ import {
   Activity,
   GitBranch,
   ShieldCheck,
-  Linkedin,
-  Github,
   ArrowUpRight,
   FileText,
   Network,
@@ -21,6 +19,22 @@ import {
   ResponsiveContainer,
   CartesianGrid
 } from "recharts";
+
+function LinkedInIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.32 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.53V9H7.1v11.45ZM22.23 0H1.76C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.76 24h20.47c.97 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0Z" />
+    </svg>
+  );
+}
+
+function GitHubIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23A11.45 11.45 0 0 1 12 5.58c1.02 0 2.05.14 3.01.41 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" />
+    </svg>
+  );
+}
 
 const telemetry = [
   { day: "Day 1", trust: 96, drift: 12, recon: 8 },
@@ -108,10 +122,10 @@ export default function Page() {
             </p>
             <div className="hero-actions" aria-label="Professional links">
               <a className="button primary" href="https://www.linkedin.com/in/koripickle1101" target="_blank" rel="noreferrer">
-                <Linkedin size={18} /> LinkedIn <ArrowUpRight size={16} />
+                <LinkedInIcon size={18} /> LinkedIn <ArrowUpRight size={16} />
               </a>
               <a className="button secondary" href="https://github.com/koripickle1101-TN" target="_blank" rel="noreferrer">
-                <Github size={18} /> GitHub <ArrowUpRight size={16} />
+                <GitHubIcon size={18} /> GitHub <ArrowUpRight size={16} />
               </a>
             </div>
           </div>
@@ -270,10 +284,10 @@ export default function Page() {
         <p className="signature">Kori Pickle</p>
         <div className="footer-links" aria-label="Footer links">
           <a href="https://www.linkedin.com/in/koripickle1101" target="_blank" rel="noreferrer" aria-label="Kori Pickle on LinkedIn">
-            <Linkedin size={20} />
+            <LinkedInIcon size={20} />
           </a>
           <a href="https://github.com/koripickle1101-TN" target="_blank" rel="noreferrer" aria-label="Kori Pickle on GitHub">
-            <Github size={20} />
+            <GitHubIcon size={20} />
           </a>
         </div>
         <p className="footer-brand">Healthcare Workflow Intelligence · Revenue Cycle Operations · Prior Authorization Drift Simulation</p>
