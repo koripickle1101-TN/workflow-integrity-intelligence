@@ -1,6 +1,12 @@
 # Workflow Integrity Intelligence™
 
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-View%20Project-FF8200?style=for-the-badge&logo=vercel&logoColor=white)](https://workflow-integrity-intelligence.vercel.app/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/koripickle1101-TN/workflow-integrity-intelligence)
+
+## Live Project
+
+**View the live dashboard:**  
+https://workflow-integrity-intelligence.vercel.app/
 
 A healthcare operational trust and workflow drift simulation dashboard created by Kori Pickle.
 
