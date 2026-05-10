@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workflow Integrity Intelligence | Kori Pickle</title>
+  <meta name="description" content="Operational intelligence stress-test system for healthcare workflow integrity, trust collapse, operational drift, and human dependency analysis." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Kori Pickle · Healthcare Systems Architect</p>
+        <h1>Workflow Integrity Intelligence</h1>
+        <p class="lede">A real-world operational stress-test system for healthcare workflows that silently depend on trust, timing, routing, reconciliation, and human middleware.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#run">Run the Audit</a>
+          <a class="button secondary" href="#framework">View Framework</a>
+        </div>
+      </div>
+      <div class="signal-card">
+        <p class="card-label">Core thesis</p>
+        <h2>Healthcare runs on trust layers.</h2>
+        <p>When trust breaks, manual work appears. That is not a user problem. It is a system signal.</p>
+      </div>
+    </section>
+
+    <section id="framework" class="section">
+      <p class="eyebrow">Operational Trust Architecture™</p>
+      <h2>Stress-test what most dashboards miss.</h2>
+      <div class="grid three">
+        <article class="panel"><span>01</span><h3>Trust Collapse Test</h3><p>Tests whether routing, timing, and escalation survive when staff stop trusting the workflow.</p></article>
+        <article class="panel"><span>02</span><h3>Operational Drift Test</h3><p>Simulates 14 operational days of minor friction to expose compounding instability.</p></article>
+        <article class="panel"><span>03</span><h3>Human Dependency Test</h3><p>Reveals whether the system works or specific people are carrying hidden reconciliation labor.</p></article>
+      </div>
+    </section>
+
+    <section id="run" class="section audit-shell">
+      <div class="audit-copy">
+        <p class="eyebrow">Run the Stress Test</p>
+        <h2>Enter your observed workflow risk level.</h2>
+        <p>Use realistic numbers from a clinic, revenue cycle workflow, prior authorization process, EHR handoff, or simulated case study. The engine converts the inputs into an operational intelligence audit.</p>
+      </div>
+
+      <form id="auditForm" class="audit-form">
+        <label>Manual verification events <input type="number" id="manual" min="0" max="100" value="42" /></label>
+        <label>Duplicate work events <input type="number" id="duplicate" min="0" max="100" value="35" /></label>
+        <label>Escalation growth % <input type="number" id="escalation" min="0" max="100" value="38" /></label>
+        <label>Queue buildup % <input type="number" id="queue" min="0" max="100" value="31" /></label>
+        <label>Human dependency level % <input type="number" id="human" min="0" max="100" value="55" /></label>
+        <label>Recovery speed % <input type="number" id="recovery" min="0" max="100" value="48" /></label>
+        <button type="submit" class="button primary">Generate Report</button>
+      </form>
+    </section>
+
+    <section id="report" class="section report hidden">
+      <p class="eyebrow">Operational Integrity Stress Test Report</p>
+      <h2 id="readinessTitle">Readiness Score</h2>
+      <div class="score-ring"><span id="scoreValue">0.0</span><small>/ 10</small></div>
+      <div id="riskBadge" class="risk-badge">Pending</div>
+      <div class="grid two">
+        <article class="panel"><h3>Executive Summary</h3><p id="summaryText"></p></article>
+        <article class="panel"><h3>Trust Failure Analysis</h3><p id="trustText"></p></article>
+        <article class="panel"><h3>Drift Resistance Analysis</h3><p id="driftText"></p></article>
+        <article class="panel"><h3>Human Dependency Analysis</h3><p id="humanText"></p></article>
+      </div>
+      <div class="cascade">
+        <h3>Failure Cascade Map</h3>
+        <div class="flow"><span>Eligibility variance</span><b>→</b><span>Manual verification</span><b>→</b><span>Queue delay</span><b>→</b><span>Escalation spike</span><b>→</b><span>Revenue leakage</span></div>
+      </div>
+      <button id="copyReport" class="button secondary">Copy Report Text</button>
+    </section>
+  </main>
+
+  <footer>Created by <strong>Kori Pickle</strong> · Workflow Integrity Intelligence</footer>
+  <script src="script.js"></script>
+</body>
+</html>
