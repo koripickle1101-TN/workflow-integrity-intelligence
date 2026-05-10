@@ -1,76 +1,62 @@
-# Workflow Integrity Intelligence
+# Workflow Integrity Intelligence™
 
-**Created by Kori Pickle**  
-BSHA Candidate | Health Informatics & RCM Operations | Patient-to-Professional Systems Architect
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/koripickle1101-TN/workflow-integrity-intelligence)
 
-## What this is
+A healthcare operational trust and workflow drift simulation dashboard created by Kori Pickle.
 
-Workflow Integrity Intelligence is a healthcare operations portfolio project that stress-tests whether a workflow is truly operationally resilient or quietly dependent on manual reconciliation, tribal knowledge, and invisible human middleware.
+## Purpose
 
-This project converts Kori Pickle's healthcare workflow philosophy into a live, interactive operational intelligence audit.
+This project models how healthcare revenue cycle workflows can begin to fail before the failure becomes visible downstream.
 
-## Core thesis
+It focuses on:
 
-Healthcare does not fail only because information is missing.
+- trust decay
+- workflow drift
+- reconciliation density
+- human middleware dependency
+- escalation containment
+- operational recovery
+- prior authorization instability
 
-It fails when trust breaks between:
+## Core Thesis
 
-- systems
-- humans
-- timing
-- routing
-- workflows
-- accountability
+Healthcare workflows do not fail only because systems are disconnected.
 
-When trust collapses, staff become the integration engine.
+They fail when humans stop trusting the timing, accuracy, routing, reconciliation logic, and workflow continuity of those systems.
 
-## Stress-test modules
+## What This Prototype Shows
 
-The live system includes three operational stress tests:
+Workflow Integrity Intelligence™ is a simulated operational intelligence dashboard that visualizes:
 
-1. **Trust Collapse Test**  
-   Measures what happens when users stop trusting eligibility, authorization timing, routing, demographics, or clinical documentation signals.
+- whether trust stability remains strong under stress
+- where workflow drift begins to increase
+- when reconciliation work starts expanding
+- how human dependency can become an operational risk
+- how upstream workflow instability can create downstream denial, delay, and revenue leakage risk
 
-2. **Operational Drift Test**  
-   Simulates minor workflow friction over 14 operational days to determine whether small failures compound into backlog, rework, delays, and revenue leakage.
+## Stress Tests Included
 
-3. **Human Dependency Test**  
-   Tests whether the workflow survives when experienced reconciliation staff, unofficial translators, and go-to problem solvers are removed.
+1. Trust Collapse Test
+2. Operational Drift Test
+3. Human Dependency Test
 
-## Output
+## Brand System
 
-The tool generates an Operational Integrity Stress Test Report with:
+- White: #FFFFFF
+- Black: #111111
+- Tennessee Orange: #FF8200
+- Warm Gray: #D9D4CE
+- Editorial healthcare intelligence aesthetic
 
-- executive summary
-- trust failure analysis
-- drift resistance analysis
-- human dependency analysis
-- system telemetry review
-- failure cascade map
-- final readiness score
-- improvement priorities
+## Portfolio Positioning
 
-## Brand identity
+This project is positioned as:
 
-This project uses Kori Pickle's premium healthcare operations visual system:
+A simulated operational intelligence prototype for healthcare workflow trust, prior authorization drift, and revenue cycle instability analysis.
 
-- white background
-- black and charcoal text
-- Tennessee Orange accent: `#FF8200`
-- warm gray structure
-- editorial serif headings
-- clean sans-serif support text
-- systems-oriented diagrams
-- high whitespace
+It is not a live hospital system and does not use patient data.
 
-## Why it matters
+## Built By
 
-Most healthcare organizations measure throughput, denial rates, productivity, and alerts.
-
-Very few measure workflow trust decay.
-
-This project is built to make invisible operational risk visible before it becomes denial rework, staff burnout, patient frustration, and revenue leakage.
-
----
-
-Created by **Kori Pickle**
+Created by Kori Pickle  
+Healthcare Workflow Intelligence
